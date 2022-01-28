@@ -13,7 +13,7 @@ import (
 //settings
 //var Dir = `source/` //относительно исходной дирректории
 var Dir = `D:\Фото\` //абсолютный путь до фотографий
-var outDir = `C:\Users\VZemtsev\go\src\parsers\exif\result\` //абсолютный путь к результату обработки
+var outDir = `C:\Users\*******\go\src\parsers\exif\result\` //абсолютный путь к результату обработки
 var outName = `res.csv` //название файла с результатами
 var output, _ = os.Create(filepath.Join(outDir, filepath.Base(outName)))
 //==============================================================================
