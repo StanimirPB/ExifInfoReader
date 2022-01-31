@@ -3,6 +3,15 @@ go lang it is best solution for it.
 
 for frogect used "github.com/rwcarlsen/goexif/exif"
 
+To install, in a terminal type:
+
+  go get github.com/rwcarlsen/goexif/exif
+
+Or if you just want the tiff package:
+
+  go get github.com/rwcarlsen/goexif/tiff
+
+
 it can analyze:
 "ImageWidth",
 "ImageLength",
